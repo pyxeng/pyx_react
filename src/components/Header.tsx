@@ -12,10 +12,12 @@ interface HeaderProps {
 export default function Header({ activeSection, isMenuOpen, setIsMenuOpen, scrollToSection }: HeaderProps) {
   const menuItems = [
     { id: 'inicio', label: 'inicio', path: '/' },
-    { id: 'projetos', label: 'projetos', path: '/' },
     { id: 'sobre', label: 'sobre', path: '/' },
     { id: 'contato', label: 'contato', path: '/' },
     { id: 'legal', label: 'legal', path: '/legal' },
+    { id: 'faq', label: 'faq', path: '/faq' },
+    { id: 'blog', label: 'blog', path: '/blog' },
+    { id: 'client-area', label: 'client area', path: '/client-area' },
   ];
 
   return (

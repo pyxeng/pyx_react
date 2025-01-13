@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text, Link } from '../atoms';
+import { Text, Link } from 'src/components/atoms';
+import { Card } from 'src/components/Card';
 
 interface CompanyInfoProps {
   nome: string;
@@ -17,7 +18,7 @@ export const CompanyInfo: React.FC<CompanyInfoProps> = ({
   endereco,
 }) => {
   return (
-    <div>
+    <Card>
       <Text variant="h2">{nome}</Text>
       <Text>Creation Date: {data_de_criacao}</Text>
       <Text>CNPJ: {cnpj}</Text>
@@ -25,6 +26,6 @@ export const CompanyInfo: React.FC<CompanyInfoProps> = ({
         Website: <Link href={`https://${website}`} target="_blank" rel="noopener noreferrer">{website}</Link>
       </Text>
       <Text>Address: {endereco}</Text>
-    </div>
+    </Card>
   );
 };

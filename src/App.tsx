@@ -6,22 +6,26 @@ import ProjectCard from './components/ProjectCard';
 import AboutSection from './components/AboutSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import ProjectDetails from './components/ProjectDetails';
-import Pagination from './components/Pagination';
-import { projects } from './data/projects';
 import { LegalPage } from './pages/LegalPage';
+import { FaqPage } from './pages/FaqPage';
+import { BlogPage } from './pages/BlogPage';
+import { ClientAreaPage } from './pages/ClientAreaPage';
+import { fetchProjects } from './services/dataService';
+import Pagination from './components/Pagination';
 
 function App() {
   const [activeSection, setActiveSection] = useState('inicio');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [projects, setProjects] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 6;
 
   useEffect(() => {
     console.log('App component mounted');
     setIsLoaded(true);
+    fetchProjects().then(setProjects).catch(console.error);
   }, []);
 
   const scrollToSection = (sectionId: string) => {
@@ -77,7 +81,7 @@ function App() {
                     {currentProjects.map((project, index) => (
                       <ProjectCard
                         key={index}
-                        {...project}
+                        project={project}
                         onSelect={() => handleProjectSelect(project)}
                       />
                     ))}
@@ -105,9 +109,11 @@ function App() {
             </>
           } />
           <Route path="/legal" element={<LegalPage />} />
+          <Route path="/faq" element={<FaqPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/client-area" element={<ClientAreaPage />} />
         </Routes>
         <Footer />
-        <ProjectDetails project={selectedProject} onClose={handleCloseDetails} />
       </div>
     </Router>
   );

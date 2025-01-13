@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text, List, ListItem } from '../atoms';
+import { Text } from 'src/components/atoms';
+import { List, ListItem } from 'src/components/List';
 
 interface ClientListProps {
   title: string;
