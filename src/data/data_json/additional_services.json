@@ -1,0 +1,27 @@
+{
+    "servicos_adicionais": [
+        {
+            "area": "Engenharia Aeronáutica e Mecânica",
+            "descricao": "Regulamentação, Vistoria, Perícia, Avaliação, Arbitragem, e Parecer Técnico para seguradoras, reguladoras e empresas em geral.",
+            "atividades": [
+                "Serviços técnicos para pessoas físicas e jurídicas na área cível"
+            ]
+        },
+        {
+            "area": "Filmes de Aeronaves",
+            "descricao": "Perícia técnica de filmes de aeronaves e partes",
+            "atividades": [
+                "Vistorias técnicas, coleta de dados, para análises, avaliações e laudo pericial de dois conjuntos de DVD's, no total de quinze, com mais de 100 FILMES DE AERONAVES DE ASAS ROTATIVAS EM VOO E MANUTENÇÃO, no pátio externo e heliponto de uma empresa",
+                "Consultoria e perícia; exames e análises para avaliação, e ajuste de perdas de COMPONENTES AERONÁUTICOS sinistrados nas montagens dos cenários de um estúdio de gravação, para a produção do Filme: 'SEQUESTRO DO VOO 375'",
+                "Perícia técnica de equipamentos avariados de navios"
+            ]
+        },
+        {
+            "area": "Marítimo",
+            "descricao": "Perícia técnica de Navio sinistrado",
+            "atividades": [
+                "Consultoria e perícia; exames e análises para avaliação e ajuste de perdas de GUINDASTE DO VESSEL FRIEDA sinistrado no Porto de Aratu BA"
+            ]
+        }
+    ]
+}

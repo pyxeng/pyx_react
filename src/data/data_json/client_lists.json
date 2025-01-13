@@ -1,0 +1,24 @@
+{
+    "clientes": {
+        "empresas_aereas": [
+            "PREMIER",
+            "MAGA Aviation",
+            "FRETAX TÁXI AÉREO"
+        ],
+        "seguradoras": [
+            "ace seguros",
+            "AGF Brasil",
+            "VERA CRUZ",
+            "Banco Safra",
+            "Allianz Seguros",
+            "MAPFRE SEGUROS"
+        ],
+        "reguladoras_e_periciadoras": [
+            "addvalora",
+            "aviamar"
+        ],
+        "empresas_gerais": [
+            "sbt"
+        ]
+    }
+}

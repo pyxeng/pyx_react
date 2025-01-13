@@ -18,6 +18,7 @@ import React, { useState, useEffect } from 'react';
       const projectsPerPage = 6;
 
       useEffect(() => {
+        console.log('App component mounted');
         setIsLoaded(true);
       }, []);
 

@@ -1,0 +1,21 @@
+{
+    "informacoes_da_empresa": {
+        "nome": "PYX ENGENHARIA E CONSULTORIA LTDA.",
+        "data_de_criacao": "17/12/1999",
+        "data_de_transformacao": "10/08/2015",
+        "numero_crea_sp": "0547274",
+        "cnpj": "03.592.483/0001-59",
+        "website": "www.pyx.eng.br",
+        "endereco": "Rua Frei Caneca, 180 - Consolação - São Paulo - SP - Brasil - CEP 01307-000",
+        "diretor_tecnico": {
+            "nome": "Paulo Sergio Rodrigues",
+            "telefone": "55 11 95350-7373",
+            "email": "paulo.rodrigues@pyx.eng.br"
+        },
+        "diretor_executivo": {
+            "nome": "Renato Funicelli Vigneron",
+            "telefone": "55 12 98278-1284",
+            "email": "renato.vigneron@pyx.eng.br"
+        }
+    }
+}

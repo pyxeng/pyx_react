@@ -1,0 +1,515 @@
+[
+  {
+    "ordem_no_documento": 1,
+    "nome_do_documento": "Portfólio PYX",
+    "informacoes_da_empresa": {
+      "nome": "PYX ENGENHARIA E CONSULTORIA LTDA.",
+      "data_de_criacao": "17/12/1999",
+      "data_de_transformacao": "10/08/2015",
+      "numero_crea_sp": "0547274",
+      "cnpj": "03.592.483/0001-59",
+      "website": "www.pyx.eng.br",
+      "endereco": "Rua Frei Caneca, 180 - Consolação - São Paulo - SP - Brasil - CEP 01307-000",
+      "diretor_tecnico": {
+        "nome": "Paulo Sergio Rodrigues",
+        "telefone": "55 11 95350-7373",
+        "email": "paulo.rodrigues@pyx.eng.br"
+      },
+      "diretor_executivo": {
+        "nome": "Renato Funicelli Vigneron",
+        "telefone": "55 12 98278-1284",
+        "email": "renato.vigneron@pyx.eng.br"
+      }
+    },
+    "areas_de_atuacao": [
+      "Engenharia Aeronáutica",
+      "Engenharia Mecânica",
+      "Consultoria",
+      "Perícia",
+      "Regulamentação",
+      "Serviços Técnicos"
+    ],
+    "servicos_oferecidos": [
+      {
+        "area": "Geral",
+        "descricao": "Serviços técnicos em Engenharia Aeronáutica e Mecânica, para empresas e pessoas físicas.",
+        "atividades": [
+          "Supervisão, coordenação e orientação técnica",
+          "Estudo, planejamento, projeto e especificação",
+          "Estudo de viabilidade técnico-econômica",
+          "Assistência, assessoria e consultoria",
+          "Direção de obra e serviço técnico",
+          "Vistoria, perícia, avaliação, arbitramento, laudo e parecer técnico",
+          "Desempenho de cargo e função técnica",
+          "Ensino, pesquisa, análise, experimentação, ensaio e divulgação técnica",
+          "Elaboração de orçamento",
+          "Padronização, mensuração e controle de qualidade",
+          "Execução de obra e serviço técnico",
+          "Fiscalização de obra e serviço técnico",
+          "Produção técnica e especializada",
+          "Condução de trabalho técnico",
+          "Condução de equipe de instalação, montagem, operação, reparo ou manutenção",
+          "Execução de instalação, montagem e reparo",
+          "Operação e manutenção de equipamento e instalação",
+          "Execução de desenho técnico"
+        ]
+      },
+      {
+        "area": "Engenharia Aeronáutica",
+        "descricao": "Manutenção de aeronaves e homologação de empresas aéreas",
+        "atividades": [
+          "Gerenciamento e controle de aeronaves",
+          "Controle técnico de manutenção",
+          "Avaliação técnica e econômica para compra e venda de aeronaves",
+          "Importação/Exportação de peças/produtos aeronáuticos",
+          "Certificação e homologação de equipamentos, componentes e modificações em aeronaves",
+          "Consultoria e assessoria para a criação e homologação de empresas de táxi aéreo e oficinas de manutenção aeronáutica",
+          "Certificação de UTI aérea e seus equipamentos médicos adicionais",
+          "Homologação de centros de treinamento de aviação civil com simuladores de voo"
+        ]
+      },
+      {
+        "area": "Engenharia Mecânica",
+        "descricao": "Regulamentação, Vistoria, Perícia, Avaliação, Arbitragem, Laudos Técnicos para seguradoras e reguladoras",
+        "atividades": [
+          "Serviços técnicos em equipamentos, peças e máquinas em diversas áreas: automobilística, energia eólica, energia nuclear, indústria, mineração, petróleo, siderurgia, transportes, usinas de açúcar e álcool, etc."
+        ]
+      }
+    ],
+    "projetos": {
+      "engenharia_aeronautica": [
+        {
+          "tipo": "Cargos e Funções Técnicas",
+          "empresas": [
+            {
+              "nome": "FLAMINGO UNIMED AIR TÁXI AÉREO LTDA.",
+              "localizacao": "Congonhas - São Paulo SP - Brasil",
+              "cargo": "Gerente de Manutenção (Táxi Aéreo) e RPQS / Inspetor Chefe (Oficina de Manutenção)",
+              "periodo": "1999-06 a 2005-10",
+              "atividades": "Engenharia de Manutenção de Aeronaves para LEAR JET 35 e 36, PILATUS PC 12 e PC 12/45, BELL 206L3 e SIKORSKY S76"
+            },
+            {
+              "nome": "PREMIER TÁXI AÉREO LTDA.",
+              "localizacao": "Congonhas - São Paulo SP - Brasil",
+              "cargo": "Diretor de Manutenção, início do processo de certificação CHE da oficina de manutenção",
+              "periodo": "2002-12 a 2005-03",
+              "atividades": "Certificação CHETA e Engenharia de Manutenção de Aeronaves para LEAR JET 35"
+            },
+            {
+              "nome": "MAGA AVIATION MANUTENÇÃO DE AERONAVES LTDA.",
+              "localizacao": "Aeroporto Campos dos Amarais - Campinas SP - Brasil",
+              "cargo": "RPQS / Inspetor Chefe (Oficina de Manutenção)",
+              "periodo": "2010-09 a 2011-05",
+              "atividades": "Certificação CHE e Eng. de Manutenção de Aeronaves BOMBARDIER LEAR JET SÉRIES 30"
+            },
+            {
+              "nome": "ODEBRECHT S/A, KOMMODORO TÁXI AÉREO LTDA. e FRETAX TÁXI AÉREO LTDA.",
+              "localizacao": null,
+              "cargo": "Serviços Técnicos de Engenharia e Consultoria",
+              "periodo": "2000 a 2003",
+              "atividades": "Engenharia de Manutenção de Aeronave BRASÍLIA EMB-120, Assistência processo de certificação CHETA, e Desenvolvimento de Boletim: RUSH KIT CARGA para BANDEIRANTE EMB-110"
+            }
+          ],
+          "inspecoes_para_seguro": [
+            {
+              "descricao": "Vistoria técnica para renovação de seguro da aeronave ESQUILO AS350-B2.",
+              "data": "23/06/2006",
+              "localizacao": "Itajubá MG",
+              "empresa": "AGF Brasil Seguros S/A (WS Aero)",
+                "imagem": "PP-ESS.png"
+            },
+            {
+              "descricao": "Vistoria técnica para renovação de seguro da aeronave ROBINSON R44",
+              "data": "28/06/2006",
+              "localizacao": "Campos dos Amarais Campinas SP",
+              "empresa": "AGF Brasil Seguros S/A (WS Aero)",
+                "imagem": "PT-OPC.png"
+            },
+            {
+              "descricao": "Vistoria técnica para renovação de seguro da aeronave CESSNA 402",
+              "data": "03/12/2006",
+              "localizacao": "Santarém PA",
+              "empresa": "AGF Brasil Seguros S/A (WS Aero)",
+                "imagem": "03_12_2006.png"
+            },
+            {
+              "descricao": "Vistoria técnica conjunta para regulamentação do sinistro com o MOTOR ARRIEL 1B da aeronave ESQUILO HB350-B",
+              "data": "27/11/2006",
+              "localizacao": "Xerém, Duque de Caxias RJ",
+              "empresa": "MAPFRE Vera Cruz Seguradora S/A",
+              "imagem":"23_11_2008.png"
+            }
+          ],
+          "inspecoes_estruturais": [
+            {
+              "descricao": "Vistoria técnica pericial do ESTABILIZADOR HORIZONTAL sinistrado, da aeronave EMB-170 em processo de fabricação.",
+              "data": "05/12/2006",
+              "localizacao": "S. J. dos Campos SP",
+              "empresa": "MAPFRE Vera Cruz Seguradora S/A",
+                "imagem":"estrutura_emb170.png"
+            }
+          ],
+          "inspecoes_acidente_aeronave": [
+            {
+              "descricao": "Vistoria técnica pericial da aeronave EMB-810D acidentada",
+              "data": "13/10/2006",
+              "localizacao": "Prado BA",
+              "empresa": "AGF Brasil Seguros S/A",
+                "imagem":"aeronave_emb_810D.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial da aeronave KING AIR C90 acidentada",
+              "data": "11/11/2006",
+              "localizacao": "Goiânia GO",
+              "empresa": "AGF Brasil Seguros S/A",
+                "imagem":"aeronave_king_air.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial da aeronave experimental CONQUEST 210 acidentada no pouso",
+              "data": "23/11/2006",
+              "localizacao": "Campinas SP",
+              "empresa": "MAPFRE Vera Cruz Seguradora S/A",
+                 "imagem":"aeronave_conquest_210.png"
+            }
+          ],
+          "inspecoes_acidente_motor": [
+            {
+              "descricao": "Vistoria técnica pericial do MOTOR CFM56-3B1 sinistrado em voo",
+              "data": "27/08/2007",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_cfm56_3b1.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do MOTOR GE CF6-80-C2-D1F sinistrado em voo",
+              "data": "01/10/2009",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_ge_cf6_80_c2_d1f.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do MOTOR GE CF6-50-E2 sinistrado durante o transporte de exportação",
+              "data": "05/03/2008",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_ge_cf6_50_e2.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do COMPONENTE “TURBINE EXHAUST NOZZLE ASSEMBLY” DO MOTOR CFM56-7B24 sinistrado durante o transporte de importação",
+              "data": "14/11/2008",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"motor_cfm56_7b24.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do MOTOR GE CF6-80-C2-B2 sinistrado durante o transporte de importação",
+              "data": "17/10/2006",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_ge_cf6_80_c2_b2.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do COMPONENTE 'SPOOL SHAFT' do MOTOR GE CF6-50 acidentado em serviço de retrabalho",
+              "data": "17/10/2006",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_ge_cf6_50.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do COMPONENTE “COMBUSTION CASE” do MOTOR CFM56-3B1 acidentado em serviço de retrabalho",
+              "data": "29/01/2007",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ALLIANZ Seguros S/A",
+                 "imagem":"motor_cfm56_3b1_combustion_case.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial do MOTOR CFM56-3B2 sinistrado no banco de prova",
+              "data": "13/11/2007",
+              "localizacao": "Petrópolis RJ",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"motor_cfm56_3b2.png"
+            }
+          ]
+        }
+      ],
+      "engenharia_mecanica": [
+        {
+          "tipo": "Automobilística",
+          "descricao": "Perícia técnica de motores e componentes sinistrados",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um LOTE DE 144 MOTORES FORD modelo 6FDE 1.6 FLEX sinistrado em acidente rodoviário no transporte de traslado.",
+              "data": "23/07/2009",
+              "localizacao": "Taubaté SP",
+              "empresa": "ACE Seguradora S/A",
+               "imagem":"motores_ford_144.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Energia Eólica",
+          "descricao": "Perícia técnica de torres sinistradas",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um LOTE DE 176 ROLOS DE CORRENTE PARA MOTO modelo TORK 428H avariados durante acidente rodoviário, capotamento seguido de incêndio, no transporte de importação",
+              "data": "03/12/2009",
+              "localizacao": "Curitiba PR",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"rolos_corrente_moto_tork.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de TREZE LOTES DE AUTOPEÇAS aplicadas em sistemas de direção, sinistrados durante acidente rodoviário no transporte de traslado",
+              "data": "27/09/2010",
+              "localizacao": "Cachoeirinha RS",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"lotes_autopeças.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial da SEÇÃO 03 DA TORRE 05 DE SUSTENTAÇÃO DE UM AEROGERADOR danificada após a queda da carreta no transporte de traslado",
+              "data": "22/09/2009",
+              "localizacao": "Erechim RS",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"torre_05_aerogerador.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial da SEÇÃO 03 DA TORRE 04 DE SUSTENTAÇÃO DE UM AEROGERADOR danificada durante o transporte de traslado",
+              "data": "07/11/2009",
+              "localizacao": "Praia do Morgado Acaraú CE",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"torre_04_aerogerador.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial da SEÇÃO 02 DA TORRE 02 DE SUSTENTAÇÃO DE UM AEROGERADOR danificada durante o transporte de traslado",
+              "data": "10/11/2009",
+              "localizacao": "Aquiraz CE",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"torre_02_aerogerador.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Energia Nuclear",
+          "descricao": "Perícia técnica de motor elétrico sinistrado",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um 'VERTICAL ELETRICAL INDUCTION MOTOR' Model GE Nr.: 271R607, danificado durante o início do transporte de exportação.",
+              "data": "10/12/2008",
+              "localizacao": "Campinas SP",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"motor_ge_nr_271r607.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Indústria",
+          "descricao": "Perícia técnica de máquinas e equipamentos sinistrados",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um CONJUNTO DE 72 VÁLVULAS BRAY COM ATUADORES INDUSTRIAIS de vários diâmetros, danificadas durante acidente rodoviário no transporte de traslado.",
+              "data": "04/08/2009",
+              "localizacao": "Uberlândia MG",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"valvulas_bray_72.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de uma MÁQUINA AUTOMÁTICA DE CORTE DE TECIDO E COURO marca GERBER, modelo Taurus XD, danificada durante o transporte de importação",
+              "data": "18/08/2009",
+              "localizacao": "São Paulo SP",
+              "empresa": "ACE Seguradora S/A / Banco SAFRA S/A",
+                "imagem":"maquina_gerber.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de DOIS TANQUES MISTURADORES EM AÇO INOX de 6 toneladas para 'shampoo', danificados no transporte de traslado",
+              "data": "29/02/2010",
+              "localizacao": "Rio de Janeiro RJ",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"tanques_misturadores.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um CONJUNTO DE PAINÉIS DE ACIONAMENTO DA MÁQUINA DE PAPEL MP1, modelo SIEMENS, dito avariado no transporte de importação terrestre",
+              "data": "11/11/2013",
+              "localizacao": "Paulínia SP",
+              "empresa": "P Browne & CIA S/A",
+                 "imagem":"paineis_maquina_papel.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Mineração",
+          "descricao": "Perícia técnica de equipamento sinistrado",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de uma MÁQUINA PERFURATRIZ JUMBO ROCKET BOOMER 104, aplicada na Indústria de Mineração, sinistrada durante operação de escavação da mina",
+              "data": "28/05/2009",
+              "localizacao": "Floresta do Araguaia - PA",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"maquina_jumbo_rocket.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Petróleo",
+          "descricao": "Perícia técnica de equipamentos sinistrados",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de uma FERRAMENTA DE INSTALAÇÃO E REENTRADA DA BAP - FIBAP danificada durante o transporte para traslado",
+              "data": "21/05/2009",
+              "localizacao": "Jandira SP",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"ferramenta_fibap.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de DOIS CARRETÉIS METÁLICOS CONTENDO JUMPER HIDRÁULICO para injeção de água, sinistrados durante o transporte de traslado",
+              "data": "27/08/2009",
+              "localizacao": "Macaé RJ",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"carreteis_jumper_hidraulico.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um TANQUE DE AFERIÇÃO FGTS-C INT-2005-006, aplicado na Indústria Petrolífera, sinistrado durante o transporte de traslado",
+              "data": "31/08/2010",
+              "localizacao": "Macaé RJ",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"tanque_afericao_fgts.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Siderurgia",
+          "descricao": "Perícia técnica de equipamento e produtos sinistrados",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um TROCADOR DE CALOR REVERSÍVEL DE ALUMÍNIO SR071 SUMITOMO, sinistrado em queda durante o transporte de importação",
+              "data": "21/07/2009",
+              "localizacao": "Vitória ES",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"trocador_calor_sumitomo.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de dois LOTES DE CHAPAS DE AÇO GROSSAS avariadas no transporte de importação",
+              "data": "20/01/2009",
+              "localizacao": "São Francisco do Sul SC",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"lotes_chapas_aco.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um LOTE DE BOBINAS DE AÇO GALVANIZADO sinistradas no transporte de importação",
+              "data": "15/07/2009",
+              "localizacao": "Sumaré SP",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"lote_bobinas_aco_galvanizado.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Transportes",
+          "descricao": "Perícia técnica de equipamentos e produtos sinistrados",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um LOTE COM 64 BOBINAS DE AÇO CARBONO SAE 6150 + MO, danificadas por corrosão, durante o transporte de importação",
+              "data": "24/07/2009",
+              "localizacao": "Itu SP",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"lote_64_bobinas_aco.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um LOTE COM 2.987 FEIXES DE VIGAS PERFIL I DE AÇO A572 GR50 sinistrados durante o transporte de importação",
+              "data": "27/08/2010",
+              "localizacao": "Vitória ES",
+              "empresa": "ACE Seguradora S/A",
+                 "imagem":"lote_vigas_perfil_i.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um PÓRTICO ROLANTE BARDELLA NPB4406624 capacidade 30/10TN, sinistrado durante vendaval",
+              "data": "06/10/2009",
+              "localizacao": "São Paulo SP",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"portico_rolante_bardella.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de um ROLO COMPACTADOR VIBRADOR PARA SOLO modelo DYNAPAC CA600D sinistrado durante queda no transporte de traslado",
+              "data": "02/12/2009",
+              "localizacao": "Sorocaba SP",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"rolo_compactador_dynapac.png"
+            },
+            {
+              "descricao": "Vistoria técnica pericial de 32 ROLOS DE CORREIAS DE BORRACHA BRIDGESTONE ST2000, de transportadora horizontal para carvão, sinistrados durante o transporte de importação",
+              "data": "20/08/2010",
+              "localizacao": "São Gonçalo do Amarante CE",
+              "empresa": "ACE Seguradora S/A",
+                "imagem":"rolos_correias_bridgestone.png"
+            },
+           {
+              "descricao": "Consultoria, regulação de sinistro e peritagem; vistorias, coleta de dados, exames, análises e avaliações, para ajuste das perdas, de uma EMPILHADEIRA TEREX RS10 danificada em operação",
+              "data": "03/03/2023",
+              "localizacao": "Santos SP",
+              "empresa": "ADDVALORA BRASIL REGULADORA DE SINISTROS LTDA. e MAPFRE SEGUROS LTDA.",
+               "imagem":"empilhadeira_terex.png"
+            }
+          ]
+        },
+        {
+          "tipo": "Usina de Açúcar e Álcool",
+          "descricao": "Perícia técnica de equipamento sinistrado",
+          "itens": [
+            {
+              "descricao": "Vistoria técnica pericial de um FILTRO DESAGUADOR HORIZONTAL, modelo ASF 12 - VLC danificado após a queda, quando estava sendo instalado",
+              "data": "04/11/2009",
+              "localizacao": "São Joaquim da Barra SP",
+              "empresa": "ACE Seguradora S/A",
+               "imagem":"filtro_desaguador.png"
+            }
+          ]
+        }
+      ]
+    },
+    "servicos_adicionais": [
+      {
+        "area": "Engenharia Aeronáutica e Mecânica",
+        "descricao": "Regulamentação, Vistoria, Perícia, Avaliação, Arbitragem, e Parecer Técnico para seguradoras, reguladoras e empresas em geral.",
+        "atividades": [
+          "Serviços técnicos para pessoas físicas e jurídicas na área cível"
+        ]
+      },
+      {
+        "area": "Filmes de Aeronaves",
+        "descricao": "Perícia técnica de filmes de aeronaves e partes",
+        "atividades": [
+          "Vistorias técnicas, coleta de dados, para análises, avaliações e laudo pericial de dois conjuntos de DVD's, no total de quinze, com mais de 100 FILMES DE AERONAVES DE ASAS ROTATIVAS EM VOO E MANUTENÇÃO, no pátio externo e heliponto de uma empresa",
+          "Consultoria e perícia; exames e análises para avaliação, e ajuste de perdas de COMPONENTES AERONÁUTICOS sinistrados nas montagens dos cenários de um estúdio de gravação, para a produção do Filme: 'SEQUESTRO DO VOO 375'",
+           "Perícia técnica de equipamentos avariados de navios"
+        ]
+      },
+        {
+           "area":"Marítimo",
+           "descricao":"Perícia técnica de Navio sinistrado",
+              "atividades":[
+               "Consultoria e perícia; exames e análises para avaliação e ajuste de perdas de GUINDASTE DO VESSEL FRIEDA sinistrado no Porto de Aratu BA"
+           ]
+        }
+    ],
+    "clientes": {
+      "empresas_aereas": [
+        "PREMIER",
+        "MAGA Aviation",
+        "FRETAX TÁXI AÉREO"
+      ],
+      "seguradoras": [
+        "ace seguros",
+        "AGF Brasil",
+        "VERA CRUZ",
+        "Banco Safra",
+        "Allianz Seguros",
+        "MAPFRE SEGUROS"
+      ],
+      "reguladoras_e_periciadoras": [
+        "addvalora",
+        "aviamar"
+      ],
+        "empresas_gerais":[
+          "sbt"
+          ]
+    }
+  }
+]
