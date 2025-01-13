@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
     import ContactForm from './components/ContactForm';
     import Footer from './components/Footer';
     import ProjectDetails from './components/ProjectDetails';
+    import Pagination from './components/Pagination';
     import { projects } from './data/projects';
 
     function App() {
@@ -13,6 +14,8 @@ import React, { useState, useEffect } from 'react';
       const [isMenuOpen, setIsMenuOpen] = useState(false);
       const [isLoaded, setIsLoaded] = useState(false);
       const [selectedProject, setSelectedProject] = useState(null);
+      const [currentPage, setCurrentPage] = useState(1);
+      const projectsPerPage = 6;
 
       useEffect(() => {
         setIsLoaded(true);
@@ -35,6 +38,19 @@ import React, { useState, useEffect } from 'react';
         setSelectedProject(null);
       };
 
+      const indexOfLastProject = currentPage * projectsPerPage;
+      const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+      const currentProjects = projects.slice(
+        indexOfFirstProject,
+        indexOfLastProject
+      );
+
+      const totalPages = Math.ceil(projects.length / projectsPerPage);
+
+      const handlePageChange = (pageNumber) => {
+        setCurrentPage(pageNumber);
+      };
+
       return (
         <div className="min-h-screen bg-emerald-50">
           <Header
@@ -52,7 +68,7 @@ import React, { useState, useEffect } from 'react';
                 Nossos Projetos
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {projects.map((project, index) => (
+                {currentProjects.map((project, index) => (
                   <ProjectCard
                     key={index}
                     {...project}
@@ -60,6 +76,11 @@ import React, { useState, useEffect } from 'react';
                   />
                 ))}
               </div>
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
             </div>
           </section>
 
