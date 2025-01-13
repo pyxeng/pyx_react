@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, X, Plane } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   activeSection: string;
@@ -9,7 +10,13 @@ interface HeaderProps {
 }
 
 export default function Header({ activeSection, isMenuOpen, setIsMenuOpen, scrollToSection }: HeaderProps) {
-  const menuItems = ['inicio', 'projetos', 'sobre', 'contato'];
+  const menuItems = [
+    { id: 'inicio', label: 'inicio', path: '/' },
+    { id: 'projetos', label: 'projetos', path: '/' },
+    { id: 'sobre', label: 'sobre', path: '/' },
+    { id: 'contato', label: 'contato', path: '/' },
+    { id: 'legal', label: 'legal', path: '/legal' },
+  ];
 
   return (
     <header className="fixed w-full bg-emerald-900/95 backdrop-blur-sm z-50 transition-all duration-300">
@@ -23,13 +30,17 @@ export default function Header({ activeSection, isMenuOpen, setIsMenuOpen, scrol
           <nav className="hidden md:flex space-x-8">
             {menuItems.map((item) => (
               <button
-                key={item}
-                onClick={() => scrollToSection(item)}
+                key={item.id}
+                onClick={() => {
+                  if (item.path === '/') {
+                    scrollToSection(item.id);
+                  }
+                }}
                 className={`text-white hover:text-amber-500 capitalize transition-colors ${
-                  activeSection === item ? 'text-amber-500' : ''
+                  activeSection === item.id ? 'text-amber-500' : ''
                 }`}
               >
-                {item}
+                {item.path === '/' ? item.label : <Link to={item.path}>{item.label}</Link>}
               </button>
             ))}
           </nav>
@@ -51,11 +62,15 @@ export default function Header({ activeSection, isMenuOpen, setIsMenuOpen, scrol
         <div className="container mx-auto px-4 py-2">
           {menuItems.map((item) => (
             <button
-              key={item}
-              onClick={() => scrollToSection(item)}
+              key={item.id}
+              onClick={() => {
+                if (item.path === '/') {
+                  scrollToSection(item.id);
+                }
+              }}
               className="block w-full text-left py-2 text-white hover:text-amber-500 capitalize"
             >
-              {item}
+              {item.path === '/' ? item.label : <Link to={item.path}>{item.label}</Link>}
             </button>
           ))}
         </div>
