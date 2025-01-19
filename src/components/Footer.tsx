@@ -11,7 +11,7 @@ export default function Footer() {
             <span className="font-bold">AeroTech</span>
           </div>
           <div className="text-sm text-emerald-100">
-            © 2024 AeroTech. Todos os direitos reservados.
+            © 2024 Pyx Aeronáutica. Todos os direitos reservados.
           </div>
         </div>
       </div>
