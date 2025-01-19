@@ -17,7 +17,7 @@ export default function Header({ activeSection, isMenuOpen, setIsMenuOpen, scrol
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Plane className="text-amber-500 h-8 w-8" />
-            <span className="text-white font-bold text-xl">AeroTech</span>
+            <span className="text-white font-bold text-xl">PYX Aeronáutica</span>
           </div>
 
           <nav className="hidden md:flex space-x-8">

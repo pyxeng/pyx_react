@@ -42,30 +42,30 @@ function App() {
 
   const projects = [
     {
-      title: 'Desenvolvimento de Turbinas',
+      title: 'Hypersonic Propulsion System',
       description:
-        'Projeto inovador de turbinas de alta eficiência para aeronaves comerciais.',
+        'Development of a revolutionary hypersonic propulsion system for next-generation aircraft.',
       image:
-        'https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1614037288848-691271118494?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       link: '#',
       date: '2024-07-15',
       time: '14:00',
     },
     {
-      title: 'Sistemas de Navegação',
-      description: 'Sistemas avançados de navegação com tecnologia de ponta.',
+      title: 'Advanced Flight Control Systems',
+      description: 'Design and implementation of advanced flight control systems for enhanced safety and performance.',
       image:
-        'https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1581092917485-144416808341?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       link: '#',
       date: '2024-08-01',
       time: '10:00',
     },
     {
-      title: 'Aerodinâmica Avançada',
+      title: 'Sustainable Aviation Fuels',
       description:
-        'Pesquisa e desenvolvimento em aerodinâmica para maior eficiência.',
+        'Research and development of sustainable aviation fuels to reduce carbon emissions.',
       image:
-        'https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1551882547-192269101987?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       link: '#',
       date: '2024-09-10',
       time: '16:00',
@@ -86,7 +86,7 @@ function App() {
       <section id="projetos" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-emerald-900 mb-12 text-center">
-            Nossos Projetos
+            Our Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (

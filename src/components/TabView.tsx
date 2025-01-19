@@ -4,17 +4,17 @@ const tabs = [
   {
     id: 'tab1',
     title: 'Our Mission',
-    content: 'To provide cutting-edge aerospace engineering solutions that drive innovation and excellence in the industry.',
+    content: 'To pioneer advancements in aerospace engineering, delivering innovative solutions that redefine the boundaries of flight and space exploration.',
   },
   {
     id: 'tab2',
     title: 'Our Vision',
-    content: 'To be a global leader in aerospace engineering, known for our expertise, reliability, and commitment to quality.',
+    content: 'To be the leading force in aerospace technology, driving progress and inspiring future generations of engineers and scientists.',
   },
   {
     id: 'tab3',
     title: 'Our Values',
-    content: 'Innovation, Integrity, Excellence, Collaboration, and Customer Satisfaction are at the core of everything we do.',
+    content: 'We are committed to excellence, innovation, integrity, and collaboration, ensuring the highest standards of quality and performance in all our endeavors.',
   },
 ];
 

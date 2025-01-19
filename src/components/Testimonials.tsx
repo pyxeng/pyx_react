@@ -2,22 +2,22 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: 'John Doe',
-    company: 'Tech Solutions Inc.',
-    text: 'AeroTech has been an invaluable partner in our aerospace projects. Their expertise and dedication are unmatched.',
-    image: 'https://placekitten.com/100/100',
+    name: 'Dr. Evelyn Reed',
+    company: 'Aerospace Dynamics Corp.',
+    text: 'AeroTech has consistently delivered exceptional results in our collaborative projects. Their expertise in propulsion systems is truly remarkable.',
+    image: 'https://images.unsplash.com/photo-1573496799689-413716d4e81a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    name: 'Jane Smith',
-    company: 'Global Aviation Corp.',
-    text: 'We are consistently impressed with the innovative solutions and high-quality work provided by AeroTech. Highly recommended!',
-    image: 'https://placekitten.com/101/101',
+    name: 'Mr. James Carter',
+    company: 'Global Flight Innovations',
+    text: 'Their innovative approach to flight control systems has significantly improved our aircraft performance. AeroTech is a reliable and forward-thinking partner.',
+    image: 'https://images.unsplash.com/photo-1580820067279-479492119e84?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    name: 'Mike Brown',
-    company: 'Space Explorers Ltd.',
-    text: 'Working with AeroTech has been a game-changer for our space exploration initiatives. Their team is incredibly skilled and reliable.',
-    image: 'https://placekitten.com/102/102',
+    name: 'Ms. Sarah Chen',
+    company: 'Advanced Space Technologies',
+    text: 'We have been working with AeroTech on several space exploration projects, and their contributions to material science have been invaluable. Their team is highly professional and dedicated.',
+    image: 'https://images.unsplash.com/photo-1580820067279-479492119e84?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function Testimonials() {
             <img
               src={testimonial.image}
               alt={testimonial.name}
-              className="w-12 h-12 rounded-full mr-4"
+              className="w-12 h-12 rounded-full mr-4 object-cover"
             />
             <div>
               <h4 className="font-semibold text-emerald-900">{testimonial.name}</h4>
