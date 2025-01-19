@@ -16,6 +16,7 @@ export const projects = [
         link: '#',
         date: '2024-08-01',
         time: '10:00',
+      },
       {
         title: 'Aerodinâmica Avançada',
         description:
